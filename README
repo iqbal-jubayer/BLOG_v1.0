@@ -1,21 +1,20 @@
-<h1>README</h1>
 I wanted to create a website where people can find different types of blogs, they can also create account and post there own blog.
 Users can follow each other.
 
 This project is completed yet. But you can download this source code and use this incomplete thing.
 You can modify the name of the site, database url and other things from the .env files located inside backend and frontend folder.
 
-<h2>Requirements:</h2>
+Requirements:
     1. Installed NodeJS in your system.
     2. Installed MongoDB in your system.
 
-<h2>Set-up:</h2>
+Set-up:
     1. Clone the site from github.
     2. Run Powershell or linux terminal.
     3. Goto backend folder and execute the command: "npm i"
     4. Goto frontend folder and execute the command: "npm i"
 
-<h2>Steps to run:</h2>
+Steps to run:
     1. Open powershell or linux terminal.
     2. Goto backend folder using powershell/terminal. Then execute the command: "npm start"
     3. Open another powershell or linux terminal.
