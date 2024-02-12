@@ -1,0 +1,77 @@
+.blogitem {
+    background-color: rgb(255, 131, 152, 0.4);
+    border-radius: 15px;
+    margin: 10px;
+    display: flex;
+    max-height: 150px;
+    overflow: hidden;
+}
+
+.left-blogitem img {
+    width: 100px;
+    border-radius: 15px;
+}
+
+.left-blogitem {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.right-blogitem {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.blogitem-desc {
+    width: 80%;
+}
+
+.blogitem-title {
+    margin: 5px 0;
+    display: flex;
+}
+
+.blogitem-title a{
+    width: 100%;
+}
+
+.blogitem-title a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.right-blogitem p {
+    color: black;
+}
+
+.blogitem-auther-info {
+    margin: auto 0 5px auto;
+}
+
+.blogitem-ctrl {
+    display: flex;
+}
+
+.blogitem-ctrl>* {
+    margin: 0 10px;
+}
+
+#edit-btn, #delete-btn{
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#edit-btn {
+    background-image: url("../../static/imgs/edit_logo.png");
+}
+
+#delete-btn {
+    background-image: url("../../static/imgs/delete_logo.png");
+}

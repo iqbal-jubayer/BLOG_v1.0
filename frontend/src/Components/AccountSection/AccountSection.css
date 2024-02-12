@@ -1,0 +1,58 @@
+.account-main-section {
+    width: 80vw;
+    height: 94vh;    
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.account-main-section h2,
+.no-blog-text {
+    text-align: center;
+    padding: 30px;
+}
+
+.account-side-section {
+    width: 20vw;
+    height: 94vh;
+    position: fixed;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.account-auther-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.account-dp-container {
+    display: flex;
+    border: 3px solid green;
+    border-radius: 100px;
+}
+
+.account-dp-container img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
+    background-image: url('../../static/imgs/blank-profile.png');
+    background-position: center;
+    background-size: cover;
+
+    border: 3px solid blue;
+    border-radius: 100px;
+}
+
+.account-username-container {
+    padding: 10px 0;
+}
+
+.account-auther-info-items {
+    margin: 5px 0;
+}

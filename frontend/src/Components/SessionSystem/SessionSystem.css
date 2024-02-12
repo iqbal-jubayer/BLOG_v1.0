@@ -1,0 +1,31 @@
+.sign {
+    height: 94vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: linear-gradient(to top right, rgba(255, 68, 100, 0.4), rgba(255, 192, 203, 0.3));
+    overflow-y: hidden;
+}
+
+.sign-items {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.sign-input p{
+    font-size: 11px;
+    text-align: center;
+    color: red;
+}
+
+.sign-items>* {
+    margin: 0 5px;
+}
+
+.sign-btn{
+    display: flex;
+    justify-content: center;
+}
